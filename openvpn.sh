@@ -1194,14 +1194,14 @@ echo
 k=$a
 if [[ $k == 1 ]];then
 downloaddizhi="一号下载源（适用于中国大陆服务器）";
-downloadhost="https://download.lyiqk.cn/ML/fas/";
+downloadhost="https://github.com/a1061244130/openvpn/blob/main/";
 fi
 	
-#if [[ $k == 2 ]];then
-#echo  >/dev/null 2>&1
-#downloaddizhi="二号下载源（适用于国外海外服务器）";
-#downloadhost="https://download.lyiqk.cn/ML/fas/";
-#fi
+if [[ $k == 2 ]];then
+echo  >/dev/null 2>&1
+downloaddizhi="二号下载源（适用于国外海外服务器）";
+downloadhost="https://github.com/a1061244130/openvpn/blob/main/";
+fi
 
 echo
 
@@ -1223,7 +1223,7 @@ function menu() {
 	echo
 	echo -e "************************************************"
 	echo -e "           欢迎使用FAS系统快速安装助手          "
-	echo -e "        QQ：863963860   破解作者：凌一       "
+	echo -e "            "
 	echo -e "************************************************"
 	echo -e "请选择："
 	echo
@@ -1291,7 +1291,7 @@ function menu() {
 	printf "\n[\033[34m 1/1 \033[0m]   正在制作Fas - APP....\n";
 	app1
 	echo
-	echo "筑梦FAS-APP制作完成，请前往/root 目录获取 fasapp_by_ly.apk 文件！"
+	echo "制作完成，请前往/root 目录获取 fasapp_by_ly.apk 文件！"
 	exit;0
 	fi
 	
@@ -1402,9 +1402,6 @@ echo -e "\033[36m                         欢迎使用FAS网络用户管理系�
 echo 
 echo -e "\033[33m                        "$banben" ("$time123"更新 (No."$version"))            \033[0m"
 echo -e "\033[32m        "
-echo -e "\033[35m                   FAS流控系统破解脚本，破解作者："$Crackauthor"              \033[0m"
-echo 
-echo -e "\033[32m                   QQ："$qqhao"    凌一博客：https://lyiqk.cn         \033[0m "
 echo
 echo -e "\033[34m----------------------------------------------------------------------------\033[0m"
 echo
@@ -1420,11 +1417,7 @@ echo -e "\033[34m---------------------------------------------------------------
 echo -e "\033[36m                         欢迎使用FAS网络用户管理系统                          \033[0m"
 echo 
 echo -e "\033[33m                        "$banben" ("$time123"更新 (No."$version"))            \033[0m"
-echo -e "\033[32m        "
-echo -e "\033[35m                   FAS流控系统破解脚本，破解作者："$Crackauthor"              \033[0m"
-echo 
-echo -e "\033[32m                   QQ："$qqhao"    凌一博客：https://lyiqk.cn         \033[0m "
-echo
+
 echo -e "\033[34m----------------------------------------------------------------------------\033[0m"
 echo
 echo -e "\033[34m------------------------------同意 请回车继续-------------------------------\033[0m"
