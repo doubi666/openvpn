@@ -623,7 +623,6 @@ address='$lybenjiip'
 unset_time=600
 #删除僵尸记录地址
 del="/root/res/del"
-
 #进程1监控地址
 status_file_1="/var/www/html/openvpn_api/online_1194.txt 7075 1194 tcp-server"
 status_file_2="/var/www/html/openvpn_api/online_1195.txt 7076 1195 tcp-server"
@@ -1194,13 +1193,13 @@ echo
 k=$a
 if [[ $k == 1 ]];then
 downloaddizhi="一号下载源（适用于中国大陆服务器）";
-downloadhost="https://github.com/a1061244130/openvpn/blob/main/";
+downloadhost="https://github.com/a1061244130/openvpn/";
 fi
 	
 if [[ $k == 2 ]];then
 echo  >/dev/null 2>&1
 downloaddizhi="二号下载源（适用于国外海外服务器）";
-downloadhost="https://github.com/a1061244130/openvpn/blob/main/";
+downloadhost="https://github.com/a1061244130/openvpn/";
 fi
 
 echo
