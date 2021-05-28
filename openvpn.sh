@@ -1193,13 +1193,13 @@ echo
 k=$a
 if [[ $k == 1 ]];then
 downloaddizhi="一号下载源（适用于中国大陆服务器）";
-downloadhost="https://github.com/a1061244130/openvpn/";
+downloadhost="https://raw.githubusercontent.com/a1061244130/openvpn/main/";
 fi
 	
 if [[ $k == 2 ]];then
 echo  >/dev/null 2>&1
 downloaddizhi="二号下载源（适用于国外海外服务器）";
-downloadhost="https://github.com/a1061244130/openvpn/";
+downloadhost="https://raw.githubusercontent.com/a1061244130/openvpn/main/";
 fi
 
 echo
